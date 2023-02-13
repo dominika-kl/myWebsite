@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- link to fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- link to CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+    <title>Contact me</title>
+</head>
+<body id="contact-me-page">
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travels.html">Travels</a></li>
+            <li><a href="walks.html">Walks</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="comment.html">Comments</a></li>
+            <li><a href="saveForLater.html">Save for later</a></li>
+          </ul>                      
+    </nav>
+    <!-- Create a contact me form using form (name and email address) and textarea for the message. The form will have nested table. -->
+    <div class="contact-form">
+        <form>
+            <h2>Contact me</h2>
+            <table id="form1">
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text"></td>
+                    <td><label>E-mail:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </form>
+        <textarea rows="20" cols="60" form="usrform">Enter message here...</textarea><br><br>
+        <!-- Create second form including radiobuttons -->
+        <form id="form2">
+            <label>Where are you travelling to?</label><br><br>
+            <input class="country" type="radio" name="country" value="USA">
+            <label>USA</label><br>
+            <input class="country" type="radio" name="country" value="Canada">
+            <label>Canada</label><br>
+            <input class="country" type="radio" name="country" value="Europe">
+            <label>Europe</label><br><br>
+            <input class="btn" type="submit" value="Send" style="width: 100px;">
+        </form>
+    </div>
+    <!-- Create an alternative form to be displayed on a smaller screen -->
+    <div id="contact-me-page-mobile">
+        <form>
+            <h2>Contact me</h2>
+            <label>Name:</label>
+            <input type="text"><br>
+            <label>E-mail:</label>
+            <input type="text"><br><br>
+        </form>
+        <textarea rows="20" cols="40" form="usrform">Enter message here...</textarea><br><br>
+        <form id="form2">
+            <label>Where are you travelling to?</label><br><br>
+            <input class="country" type="radio" name="country" value="USA">
+            <label>USA</label><br>
+            <input class="country" type="radio" name="country" value="Canada">
+            <label>Canada</label><br>
+            <input class="country" type="radio" name="country" value="Europe">
+            <label>Europe</label><br><br>
+            <input class="btn" type="submit" value="Send" style="width: 100px;">
+        </form>
+    </div>
+    <!-- Add footer -->
+    <footer class="footer-sub-page">
+        <p>© 2023 Dominika Klosowska</p>
+    </footer>
+</body>
+</html>

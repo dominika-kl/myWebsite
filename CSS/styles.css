@@ -1,0 +1,458 @@
+/* navigation bar */
+
+  .nav-bar {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    padding: 1px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(127, 124, 124);
+    /* font-weight: 1000; */
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+/* change font color on a hover */
+  nav ul li a:hover {
+    color: rgb(52, 50, 50);
+  }
+
+/* body syles for all pages */
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1;
+}
+
+main {
+    background-color: white;
+    margin-top: 2vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 5vh;
+    border: solid white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding-bottom: 5vh;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 2;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image-btns button {
+    margin-top: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #DEE6F1;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 50;
+    padding: 6px;
+    background-color: #678983;
+    border: solid #678983 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image-btns button:hover {
+    border: solid #727274 1px;
+    background:  #727274;
+    background-image: -webkit-linear-gradient(top,  #727274, #727274);
+    background-image: -moz-linear-gradient(top,   #727274,  #727274);
+    background-image: -o-linear-gradient(top,   #727274,   #727274);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* useful links section */
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* images on home page */
+
+/* header background image */
+#main-page-img {
+    background-image: url(../images/glen-scotland3.jpg);
+    background-size: 100%;
+    padding-bottom: 30vh;
+    background-repeat: no-repeat;
+}
+
+/* image deviding sections and botto nav on home page */
+.paws-image {
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* contact me button on home page */
+
+.btn {
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   color: #DEE6F1;
+   font-family: Helvetica;
+   font-size: 15px;
+   font-weight: 50;
+   padding: 8px;
+   background-color: #678983;
+   border: solid #678983 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #727274 1px;
+   background:  #727274;
+   background-image: -webkit-linear-gradient(top,  #727274, #727274);
+   background-image: -moz-linear-gradient(top,   #727274,  #727274);
+   background-image: -o-linear-gradient(top,   #727274,   #727274);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    background-color: #F1F6F5;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.footer-sub-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    padding-bottom: 5vh;        
+}
+
+/* travels and walks pages */
+
+.top-img {
+    width: 45vw;
+}
+
+article {
+    padding: 0 8vw;
+}
+/* carousel */
+.carousel-inner {
+    background-color: black;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+#myCarousel{
+    margin-top: 3vh;
+}
+
+/* comment page */
+/* table styling */
+#comments-table {
+    margin: 10px auto;
+}
+th {
+    font-size: 1.2rem;
+}
+tr {
+    border-radius: 1em;
+    overflow: hidden;
+    border: transparent;
+    border-radius: 5px;
+    padding: 25px 30px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* image gallery (display 4 images next to each other); the images will open in a new tab on a click */
+div.gallery {
+    margin-top: 3vh;
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Contact me page & Comment page*/
+
+#contact-me-page {
+    background-image: url('../images/world-map.png');
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #393E46;
+}
+
+.contact-form {
+    font-family: 'Roboto Condensed', sans-serif;  
+    border-radius: 10px;
+    background-color: rgba(241, 246, 245, 0.8);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 40%;
+    margin: 10% 30%;
+}
+
+td {
+    padding: 0 5px;
+}
+
+#form1 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#form2 {
+    padding-bottom: 30px;
+    box-shadow: none;
+}
+
+input {
+    border-radius: 5px;
+    border: solid white;
+    box-shadow: 3px 3px 1.5px #aaaaaa;
+}
+
+input:focus {
+    outline-color: #678983;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif; 
+    border: solid white;
+    box-shadow: 3px 3px 1.5px #aaaaaa;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    outline-color: #678983;
+}
+
+#comment-page {
+    background-color: rgba(241, 246, 245, 0.8);
+    background-size: 100%;
+    color: #393E46;
+}
+
+.comments {
+    font-family: 'Roboto Condensed', sans-serif;  
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+#comments-table {
+    width: 50%;
+}
+
+#comments-table td {
+    width: 50%;
+    text-align: left;
+}
+
+/* save for later page */
+
+#save-for-later-container {
+    background-color: #F1F6F5;
+}
+
+.save-for-later-btn {
+    margin-bottom: 8px;
+}
+
+#saved-for-later-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#saved-for-later-table td{
+   text-align: center;
+}
+.image-saved {
+    width: 30%;
+}
+/* Responsive layout: three displays depending on the screensize; when the screen is less than 900px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* wide screen */
+@media screen and (min-width: 1600px) {
+    
+    h2 {
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact-me-page-mobile {
+        display: none;
+    }
+} 
+/* medium screen */
+@media screen and (max-width: 1600px) and (min-width: 900px) {
+    
+    h2 {
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    main {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    #main-page-img {
+        padding-bottom: 20vh;
+    }
+    .top-img {
+        width: 60vw;
+    }
+    .contact-form {
+        width: 50%;
+        margin: auto;
+        margin-top: 150px;
+    }
+    #contact-me-page-mobile {
+        display: none;
+    }
+    .comments {
+        width: 50%;
+        margin: auto;
+        margin-top: 150px;
+    }
+   
+}
+/* mobile screen */
+@media screen and (max-width: 900px) {
+    
+    h1 {
+        padding-top: 30px;
+        font-size: 3rem;
+    }
+    h2 {
+        padding-top: 10px;
+        font-size: 1.8rem;
+    }
+    main {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: small;
+    }
+    .top-img {
+        width: 60vw;
+    }
+    #main-page-img {
+        padding-bottom: 2vh;
+    }
+    #contact-me-page {
+        background-position: 5% 5%;
+    }
+    .contact-form {
+        display: none;
+    }
+    .comments {
+        display: none;
+    }
+    #contact-me-page-mobile {
+        margin: 20% 12%;
+        background-color: rgba(241, 246, 245, 0.8);
+        font-family: 'Roboto', sans-serif; 
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+    }
+    #comments-table{
+        width: 80%;
+    }
+}
+
